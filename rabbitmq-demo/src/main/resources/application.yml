@@ -1,0 +1,25 @@
+
+server:
+  port: 5673
+
+spring:
+  rabbitmq:
+    host: 182.92.70.8
+    port: 5672
+    username: admin
+    password: admin
+    virtual-host: /
+    publisher-returns: true
+    publisher-confirm-type: correlated
+
+  mail:
+    username: 18203702881@163.com
+    password: ICIWFENZLJGETKWP
+    host: smtp.163.com
+    default-encoding: UTF-8
+
+
+
+
+
+

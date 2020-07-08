@@ -1,0 +1,25 @@
+
+server:
+  port: 5674
+
+
+spring:
+  rabbitmq:
+    username: admin
+    password: admin
+    host: 182.92.70.8
+    virtual-host: /
+    listener:
+      simple:
+        acknowledge-mode: manual
+
+
+  mail:
+    username: 18203702881@163.com
+    password: ICIWFENZLJGETKWP
+    host: smtp.163.com
+    default-encoding: UTF-8
+
+
+
+
